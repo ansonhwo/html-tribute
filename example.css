@@ -1,15 +1,31 @@
 body {
   text-align: center;
   font-size: 18px;
+  background-color: #A9BCF5;
 }
 
 h1.title {
+  letter-spacing: 3px;
   font-size: 70px;
+  border-top: 2px solid #000;
+  border-bottom: 2px solid #000;
+  width: 590px;
+  margin: 30px auto 10px auto;
 }
 
 div.features {
   min-width: 1250px;
   margin: 20px auto 0px auto;
+}
+
+.copyright {
+  position: fixed;
+  bottom: 3%;
+  left: 50%;
+  margin-bottom: -10px;
+  margin-left: -100px;
+  width: 200px;
+  height: 20px;
 }
 
 span.col {
